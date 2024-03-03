@@ -1,0 +1,46 @@
+.App-container{
+  width:70%;
+  margin:0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top:40px;
+  gap:20px;
+  background-color: rgb(22, 22, 22);
+  border-radius:10px;
+  position: relative;
+}
+h2{
+  font-size: 30px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.passwordbox{
+  display: flex;
+  
+}
+input[type="text"]{
+
+  width:400px;
+  border:0;
+  outline:0;
+  border-radius:6px 0px 0px 6px;
+}
+.my-btn{
+  border-radius:0px 6px 6px 0px;
+}
+.passparam{
+  padding:10 5;
+  width:50%;
+  display:flex;
+  justify-content:space-around;
+  color:orange;
+  font-size: 24px;
+}
+.copycon{
+  font-size: 14px;
+  background-color: rgb(178, 186, 194);
+  padding:5px 5px;
+  position: absolute;
+  top:25%;
+  right:25%;
+}
