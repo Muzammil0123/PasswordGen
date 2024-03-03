@@ -20,7 +20,7 @@ h2{
 }
 input[type="text"]{
 
-  width:400px;
+  width: 400px;
   border:0;
   outline:0;
   border-radius:6px 0px 0px 6px;
@@ -43,4 +43,14 @@ input[type="text"]{
   position: absolute;
   top:25%;
   right:25%;
+}
+@media screen and (max-width:450px) {
+
+  input[type="text"]{
+    width:200px;
+  }
+  .passparam{
+    flex-direction: column;
+  }
+  
 }

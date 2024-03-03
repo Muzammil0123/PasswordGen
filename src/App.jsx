@@ -48,18 +48,18 @@ function App() {
       }}>Copy</button>
     </div>
     <div className="passparam">
-      <div>
+      <div className='indele'>
       <input type='range' min={6} max={100}
       onChange={(e)=>setlength(e.target.value)}></input>
   
       <label>Length:{length}</label>
       </div>
-      <div>
+      <div className='indele'>
       <input type="checkbox"  defaultChecked={numberallowed} onChange={()=>setnumbers((prev)=>!prev)}></input>
 
       <label >Numbers</label>
       </div>
-      <div>
+      <div className='indele'>
       <input type='checkbox' defaultChecked={charcterallowed} onChange={()=>setcharcter((prev)=>!prev)}></input>
       <label>Charcters</label>
       </div>
